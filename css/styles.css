@@ -87,8 +87,7 @@ header {
 }
 
 /* command */
-.command-list,
-.command-list .section-title {
+.command-section {
   background-color: #f5f4fa;
 }
 .command-list .title {
