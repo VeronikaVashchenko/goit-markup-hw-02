@@ -142,34 +142,36 @@ footer a {
   background-color: var(--hero-footer-color);
   color: var(--primary-bg-color);
   text-decoration: none;
+  font-style: normal;
 }
 .address {
   color: var(--primary-bg-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .address a {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
 }
 
 /* Портфолио */
+.portfolio-list a {
+  text-decoration: none;
+}
 .portfolio-list .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
 .portfolio-list .text {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  text-decoration: none;
 }
